@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+
+*{
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+
+.nav-bar{
+    /* background-color: cyan; */
+    /* background-image: linear-gradient(to left bottom,purple,rgb(139, 77, 139),rgb(224, 209, 224)); */
+    /* background-image: conic-gradient(red 85deg, yellow 90deg, green 210deg); */
+    /* height: 200px; */
+    background-image: url(https://th.bing.com/th/id/OIP.mqI8mIbm4u-mE4McA8_T-AHaC9?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+/* display: flex; */
+}
+
+.brand-name{ 
+    /* position: relative; */
+    /* left: 300px; */
+    /* text-align: center; */
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 35px;
+    font-style: normal;
+    /* text-align: center; */
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px black;
+}
+
+
