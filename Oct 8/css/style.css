@@ -1,0 +1,29 @@
+/* .Transform{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(141, 101, 101);
+    transform: rotateY(80deg);
+    transform: skew(15deg);
+}
+
+.Transform-1st{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(196, 129, 129);
+    transform: rotateY(45deg);
+    transform: skewY(80deg);
+} */
+
+.Tran{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    /* transition: cubic-bezier(0.6, -0.28, 0.735, 0.045); */
+
+    transition: 10s;
+}
+
+
+.Tran:hover{
+    background-color: darkslategray;
+}

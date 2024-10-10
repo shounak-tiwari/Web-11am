@@ -1,0 +1,15 @@
+:root{
+    --primary-color : black;
+    --secondary-color:gray;
+    --font-color:white;
+}
+
+
+.nav-bar{
+    display: flex;
+
+    color: var(--font-color);
+    padding: 10px;
+    background-image: linear-gradient(rgb(58, 55, 55),rgb(79, 79, 79),rgb(78, 74, 74));
+    /* height: 100px; */
+}

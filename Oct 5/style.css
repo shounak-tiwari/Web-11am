@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    position: relative;
+    background-color: cyan;
+    display: flex;
+}
+.brand-name{
+    position: absolute;
+    left: 25%;
+    top: 10px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+
+.nav-ul{
+    position: absolute;
+    right: 5%;
+    list-style-type: none;
+}
+
+
+.nav-ul li{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.card{
+    border: 2px solid black;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+
+.scroll-default{
+    display: flex;
+    overflow: scroll;
+}
+
+
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
