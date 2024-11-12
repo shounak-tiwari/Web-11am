@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <table>
+        <form action="">
+            <!-- first row -->
+            <tr>
+                <td>
+                    <label for="">First name : </label>
+                </td>
+                <td>
+                    <input type="text" placeholder="e.g universal" id="first">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+
+                <td>
+                    <p id="FirstError"></p>
+                </td>
+            </tr>
+
+
+            <!-- last row -->
+            <tr>
+                <td>
+                    <label for="">Last name : </label>
+                </td>
+                <td>
+                    <input type="text" placeholder="e.g universal" id="last">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p id="LastError"></p>
+                </td>
+            </tr>
+
+
+            <!-- email row -->
+            <tr>
+                <td>
+                    <label for="">E-mail : </label>
+                </td>
+                <td>
+                    <input type="email" placeholder="e.g universal" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p id="EmailError"></p>
+                </td>
+            </tr>
+
+
+            <!-- phone number -->
+            <tr>
+                <td>
+                    <label for="">Phone number : </label>
+                </td>
+
+                <td>
+                    <select name="" id="Code">
+                        <option value="+91">+91</option>
+                        <option value="+1">+1</option>
+                        <option value="+043">+043</option>
+                    </select>
+                    <input type="text" placeholder="e.g universal" id="contact">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p id="ContactError"> </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                   <button onclick="return Validate()">calll</button>
+                </td>
+            </tr>
+
+        </form>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
